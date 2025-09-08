@@ -1,0 +1,10 @@
+---
+# say hello with debug module
+- name: play to say hello world
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: say hello
+      ansible.builtin.debug:
+        msg: hello world
+...
