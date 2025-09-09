@@ -6,7 +6,7 @@
   tasks:
     - name: show a fact task
       ansible.builtin.debug:
-        var: ansible_facts['ansible_default_ipv4']['address']
+        var: ansible_default_ipv4['address']
      
 
 #    - name: show the facts
