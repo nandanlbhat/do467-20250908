@@ -1,0 +1,12 @@
+---
+# say hello "msg" with debug module
+- name: play to say hello {{ msg }}
+  hosts: all
+  gather_facts: false
+  vars:
+    msg: "world"
+  tasks:
+    - name: say hello {{ msg }}
+      ansible.builtin.debug:
+        msg: hello {{ msg }}
+...
