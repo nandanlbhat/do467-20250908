@@ -1,5 +1,5 @@
 [servers]
-server[a:f].lab.example.com
+server[e:f].lab.example.com
 
 [desktop]
 workstation.lab.example.com
